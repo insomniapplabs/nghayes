@@ -17,6 +17,11 @@
 .contact-container { padding:50px 0;background:#303030; }
 .client-container { padding:50px 0; }
 
+.client-images { margin-bottom:40px; }
+
+.testimonial { margin-bottom:40px; }
+
+
 .testimonial-cite { font-size:1.15em; }
 
 .how-step-header { color:#303030;margin-top:40px; }
@@ -155,11 +160,13 @@ fieldset[disabled] .btn-bordered-white.active {
 }
 .navbar-default .navbar-brand {
   color: #fff;
+  font-family:'latoregular';
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #fff;
   background-color: transparent;
+  font-family:'latoregular';
 }
 .navbar-default .navbar-text {
   color: #fff;

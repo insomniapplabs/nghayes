@@ -1,13 +1,13 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
 
-<div class="callout-container">
+<div class="callout-container" id="top">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<p class="text-center"><img src="assets/images/logo.png" alt="I'm Yeoman" /></p>
 				<h1 class="text-center latohairline callout-text">Cut your energy costs by up to 10% with zero capital investent.</h1>
 				<div class="callout-btn">
-					<p class="text-center"><a href="#" class="btn-white btn-bordered-white">Contact</a></p>
+					<p class="text-center"><a href="#" class="btn-white btn-bordered-white" scroll-to="contact">Contact</a></p>
 				</div>
 			</div>
 		</div>
@@ -15,7 +15,7 @@
 </div>
 
 
-<div class="how-container">
+<div class="how-container" id="how-it-works">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -57,34 +57,79 @@
 	</div>
 </div>
 
-<div class="about-container">
+<div class="about-container" id="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<p class="text-center"><img src="assets/images/leaf.png" alt="I'm Yeoman" class="leaf-img" width="40"></p>
 				<h2 class="text-center latolight secondary-header">About</h2>
 				<p class="text-center latolight secondary-text">Hayes Energy helps hospitals save money on their bills with ZERO capital investment. We don’t get paid unless we produce cost savings, and there is a simple startup process, with no long term commitment necessary.</p>
-				<p class="text-center latolight secondary-text">We are fortunate to work with many leading healthcare systems, and are proud that HCA, HMA, Lifepoint, and other clients credit us with MILLIONS in annual savings throughout their portfolio of facilities.</p>
+				<p class="text-center latolight secondary-text">We are fortunate to work with many leading healthcare systems, and are proud that HMA, Lifepoint, and other clients credit us with MILLIONS in annual savings throughout their portfolio of facilities.</p>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="client-container">
+<div class="client-container" id="clients">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<p class="text-center"><img src="assets/images/leaf.png" alt="I'm Yeoman" class="leaf-img" width="40"></p>
 				<h2 class="text-center latolight secondary-header">Clients</h2>
-				<p class="text-center latolight secondary-text">"Every facility should benefit from this program. And while the savings are significant, we are not sacrificing patient care. Our goal is to have no one notice the program, except maybe our Chief Financial Officers."</p>
-				<p class="text-center latobold testimonial-cite">Brian Weldy<br>HCA Vice President of Engineering and Facility Management</p>
+
+				<div class="client-images">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="assets/images/healthManagement.jpg" width="100%" />
+						</div>
+						<div class="col-md-4">
+							<img src="assets/images/lifepoint.jpg" width="100%" />
+						</div>
+						<div class="col-md-4">
+							<img src="assets/images/chs.jpg" width="100%" />
+						</div>
+					</div>
+	
+					
+					<div class="row">
+						<div class="col-md-4">
+							<img src="assets/images/healthtrust.jpg" width="100%" />
+						</div>
+						<div class="col-md-4">
+							<img src="assets/images/piedmont.jpg" width="100%" />
+						</div>
+						<div class="col-md-4">
+							<img src="assets/images/tenet.jpg" width="100%" />
+						</div>
+					</div>
+				</div>
+
+				<div class="testimonial">
+					<p class="text-center latolight secondary-text">"We didn't believe the savings at first. We thought it might have something to do with the cooler summer we had, but our CFO did an analysis and validated the results. Last month we saved almost 15 percent and our year-to-date savings are significant. If you have an aging plant, just keep an open mind. You'll be pleased with the results"</p>
+					<p class="text-center latobold testimonial-cite">Jackie Desouza, COO<br>Research Medical Center - Kansas City, MO</p>
+				</div>
+				
+				<div class="testimonial">
+					<p class="text-center latolight secondary-text">University Hospital in Tamarac, Florida is also an older facility, built in 1974. Chief Executive Officer, Lee Chaykin, said the program is saving his hospital 7 to 12 percent monthly. "It is a very painless process. It doesn't take any extra time or paperwork."</p>
+					<p class="text-center latobold testimonial-cite">Lee Chaykin, CEO<br>University Hospital - Tamarac, FL</p>
+				</div>
+				
+				<div class="testimonial">
+					<p class="text-center latolight secondary-text">"It is a fairly common sense principle. It's a new culture, a game of savings, sort of 'look at what we got'."</p>
+					<p class="text-center latobold testimonial-cite">Skip Marsh, Director of Facility Management<br>JFK Medical Center - Atlantis, FL</p>
+				</div>
+				
+				<div class="testimonial">
+					<p class="text-center latolight secondary-text">"It is something that you want to do. Every day we check the computer and it shows the money we save."</p>
+					<p class="text-center latobold testimonial-cite">Jim Dunn, Director of Facility Management<br>Corpus Christi Medical Center - Corpus Christi, TX</p>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
 
-<div class="contact-container">
+<div class="contact-container" id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
