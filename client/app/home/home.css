@@ -5,13 +5,13 @@
 .latoblack { font-family:'latoblack'; }
 
 
-.callout-text { font-size:3.5em;color:#fff; }
+.callout-text { padding:20px 0;font-size:3.8em;color:#fff;background-image:url('/assets/images/opback.png'); }
 .secondary-header { font-size:3.0em; }
 .white { color:#fff; }
 .secondary-text { font-size:1.3em;line-height:1.7;padding:0 30px; }
 .contact-text { font-size:1.2em;line-height:1.5em; padding:0 30px;color:#fff; }
 
-.callout-container { padding:100px 0;background:#76B852; }
+.callout-container { padding:100px 0 100px 0;background-image:url('/assets/images/hall.png');width:"100%"; }
 .how-container { padding:50px 0; }
 .about-container { padding:50px 0;background:#F4F4F4; }
 .contact-container { padding:50px 0;background:#303030; }
@@ -19,15 +19,139 @@
 
 .testimonial-cite { font-size:1.15em; }
 
-.how-step-header { color:#747474;margin-top:40px; }
+.how-step-header { color:#303030;margin-top:40px; }
 .how-step-text { font-size:1.3em;line-height:1.7;padding:0 30px; }
 .how-step-litext { font-size:1.3em;line-height:1.7; }
 .listpad { padding:0 30px 0 75px;}
 
+.leaf-img { margin-bottom:0; }
+
+.callout-btn { margin-top:40px; }
+.btn-bordered-white {
+
+}
+
+/* CUSTOM BUTTON STYLE */
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+
+.btn-white {
+  display: inline-block;
+  padding: 6px 25px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 2px solid transparent;
+  border-radius: 0;
+  font-family:'latohairline';
+  text-transform:uppercase;
+}
+
+.btn-white:focus,
+.btn-white:active:focus,
+.btn-white.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn-white:hover,
+.btn-white:focus {
+  color: #333;
+  text-decoration: none;
+}
+.btn-white:active,
+.btn-white.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn-white.disabled,
+.btn-white[disabled],
+fieldset[disabled] .btn {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  opacity: .65;
+}
+.btn-bordered-white {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn-bordered-white:hover,
+.btn-bordered-white:focus,
+.btn-bordered-white:active,
+.btn-bordered-white.active,
+.open .dropdown-toggle.btn-bordered-white {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn-bordered-white:active,
+.btn-bordered-white.active,
+.open .dropdown-toggle.btn-bordered-white {
+  background-image: none;
+}
+.btn-bordered-white.disabled,
+.btn-bordered-white[disabled],
+fieldset[disabled] .btn-bordered-white,
+.btn-bordered-white.disabled:hover,
+.btn-bordered-white[disabled]:hover,
+fieldset[disabled] .btn-bordered-white:hover,
+.btn-bordered-white.disabled:focus,
+.btn-bordered-white[disabled]:focus,
+fieldset[disabled] .btn-bordered-white:focus,
+.btn-bordered-white.disabled:active,
+.btn-bordered-white[disabled]:active,
+fieldset[disabled] .btn-bordered-white:active,
+.btn-bordered-white.disabled.active,
+.btn-bordered-white[disabled].active,
+fieldset[disabled] .btn-bordered-white.active {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-bordered-white .badge {
+  color: #fff;
+  background-color: #333;
+}
+
+
 /* CUSTOM NAVBAR STYLES */
 .navbar-default {
-  background-color: #76B852;
-  border-color: #76B852;
+  background-color: #303030;
+  border-color: #303030;
+  opacity:0.95;
 }
 .navbar-default .navbar-brand {
   color: #fff;
