@@ -11,7 +11,7 @@
 .secondary-text { font-size:1.3em;line-height:1.7;padding:0 30px; }
 .contact-text { font-size:1.2em;line-height:1.5em; padding:0 30px;color:#fff; }
 
-.callout-container { padding:100px 0 100px 0;background-image:url('/assets/images/hall.jpg');width:"100%"; }
+.callout-container { padding:200px 0 200px 0;background-image:url('/assets/images/hall.jpg');width:"100%";background-position:center; }
 .how-container { padding:50px 0; }
 .about-container { padding:50px 0;background:#F4F4F4; }
 .contact-container { padding:50px 0;background:#303030; }
