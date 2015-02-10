@@ -5,17 +5,17 @@
 .latoblack { font-family:'latoblack'; }
 
 
-.callout-text { padding:20px 0;font-size:3.8em;color:#fff;background-image:url('/assets/images/opback.png'); }
+.callout-text { padding:20px 0;font-size:3.8em;color:#fff;/*background-image:url('/assets/images/opback.png');*/ }
 .secondary-header { font-size:3.0em; }
 .white { color:#fff; }
 .secondary-text { font-size:1.3em;line-height:1.7;padding:0 30px; }
 .contact-text { font-size:1.2em;line-height:1.5em; padding:0 30px;color:#fff; }
 
-.callout-container { padding:275px 0 175px 0;background:url('/assets/images/skyridge.jpg');width:"100%";background-position:center; }
-.how-container { padding:50px 0; }
-.about-container { padding:50px 0;background:#F4F4F4; }
-.contact-container { padding:50px 0;background:#303030; }
-.client-container { padding:50px 0; }
+.callout-container { padding:175px 0 175px 0;/*background:url('/assets/images/cedarpark.jpg');*/background:#999;width:"100%";background-position:center; }
+.how-container { padding:100px 0; }
+.about-container { padding:100px 0;background:#F4F4F4; }
+.contact-container { padding:70px 0;background:#303030; }
+.client-container { padding:100px 0; }
 
 .client-images { margin-bottom:40px; }
 
@@ -243,6 +243,3 @@ fieldset[disabled] .btn-bordered-white.active {
 .navbar-default .navbar-link:hover {
   color: #333;
 }
-
-
-
