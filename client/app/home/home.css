@@ -5,7 +5,7 @@
 .latoblack { font-family:'latoblack'; }
 
 
-.callout-text { padding:20px 0;font-size:3.5em;color:#fff;/*background-image:url('/assets/images/opback.png');*/ }
+.callout-text { padding:20px 0;font-size:3.5em;color:#fff;background-image:url('/assets/images/opback.png'); }
 .secondary-header { font-size:3.0em; }
 .white { color:#fff; }
 .secondary-text { font-size:1.3em;line-height:1.7;padding:0 30px; }
@@ -83,7 +83,7 @@
   background-image: none;
   border: 2px solid transparent;
   border-radius: 0;
-  font-family:'latohairline';
+  font-family:'latolight';
   text-transform:uppercase;
 }
 
