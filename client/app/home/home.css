@@ -11,7 +11,10 @@
 .secondary-text { font-size:1.3em;line-height:1.7;padding:0 30px; }
 .contact-text { font-size:1.2em;line-height:1.5em; padding:0 30px;color:#fff; }
 
-.callout-container { background-size:100%;padding:300px 0 300px 0;background-image:url('/assets/images/physiciansRegionalBig.jpg');background-repeat:no-repeat; }
+.callout-container { padding:300px 0 300px 0;background:url('/assets/images/physiciansRegionalBig.jpg') no-repeat center center;-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 .how-container { padding:100px 0; }
 .about-container { padding:100px 0;background:#F4F4F4; }
 .contact-container { padding:70px 0;background:#303030; }
